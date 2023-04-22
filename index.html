@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+    <title>Document</title>
+</head>
+<body>
+    <div id="principal">
+        <img src="oracle.png" alt="">
+        <h1>Encryptador de texto</h1>
+        <button class="reciclar" onclick="limpiarContent()"></button>
+        <textarea placeholder="Ingrese el texto aqui" class="texto1" id="txt1" cols="30" rows="10" ></textarea>
+        <button onclick="encryptarTexto()"  class="botonEn">Encryptar</button>
+        <button onclick="desencryptarTexto()" class="botonDe">Desencryptar</button>
+        <textarea class="texto2" placeholder="No se ha detectado aun un mensaje"  id="txt2" cols="30" rows="10" readonly></textarea>
+        <button onclick="copiarContent()" id="botonC" class="botonC">Copiar</button>
+    </div>
+    <script src="funciones.js"></script>
+</body>
+<footer>
+    <div class="iconos">
+      <a href="https://www.linkedin.com/in/yeison-stiven-valencia-hurtatis-469470266/"><i class="fab fa-linkedin"></i></a>
+      <a href="https://github.com/yeison097/OracleOne"><i class="fab fa-github"></i></a>
+      <a href="https://www.instagram.com/cristiano/"><i class="fab fa-instagram"></i></a>
+    </div>
+  </footer>
+</html>
+
+
